@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+
+{% endblock %}
+
+
+
+{% block body %}
+<div class=everything>
+<h3>{{ city }}, {{ state }} {{ zipcode }}</h3>
+<ul>
+{% for place in results.places %}
+    {{ place.get_details() or "" }}
+    <div class=parent>
+    <div class=wrapper>
+    <li><a class="store" href = {{ url_for('store', storeid=place.place_id) }}>{{ place.name }}</a></li>
+    <li class="add">{{ place.formatted_address }}</li>
+    </div>
+    </div>
+{% endfor %}
+</ul>
+
+{{ googlemap("mymap", lat=lat, lng=lng, markers=markers_list, style="position:absolute;width:600px;height:197px;left:485px;top:245px;", fit_markers_to_bounds=True) }}
+</div>
+{% endblock %}

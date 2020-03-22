@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+
+{% endblock %}
+
+
+
+{% block body %}
+
+<h1>Instantly see the current status of local grocery store shelves</h1>
+
+<form method="POST" action='/storelist'>
+    <div class='form-group'>
+        <input class='input-text' type='text' name='zipcode' placeholder='Enter your zip code!'>
+    </div>
+    <input class='btn btn-primary' type='submit' value='go'>
+</form>
+
+<h2>publish a status update</h2>
+
+{% endblock %}

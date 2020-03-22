@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+img {
+    position: absolute;
+    width: 204px;
+    height: 33.54px;
+    left: 44px;
+    top: 34px;
+
+}
+
+h1 {
+    position: absolute;
+    width: 571px;
+    height: 153px;
+    left: 421px;
+    top: 288px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+}
+
+.form-group input {
+
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 420px;
+    top: 511px;
+    
+    background: #F5F5F5;
+    border-radius: 11px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #656565;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+.input-text {
+    padding: 24px;
+}
+
+.btn {
+    position: absolute;
+    width: 134px;
+    height: 70px;
+    left: 886px;
+    top: 511px;
+    z-index: 2;
+    color: #FFFFFF;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    background: #091FE8;
+    border-radius: 11px;
+    border: none;
+}
+
+h2 {
+    position: absolute;
+    width: 207px;
+    height: 22px;
+    left: 596px;
+    top: 796px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+
+    text-transform: lowercase;
+
+    color: #091FE8;
+}
+
+h3 {
+    position: relative;
+    width: 400px;
+    height: 34px;
+    top: 169px;
+    left: 595px;
+    
+
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #091FE8;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+
+    position: absolute;
+    width: 600px;
+    height: 88px;
+    left: 420px;
+    top: 420px;
+    
+}
+
+li {
+   
+    border-radius: 11px;
+    text-decoration: none;
+    color: #000000;
+    width: 600px;
+}
+
+.store {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.add {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper {
+    background: #F9F9F9;
+    box-shadow: 4px 4px 8px #E2E2E2;
+    border-radius: 11px;
+    padding: 16px 24px;
+}
+
+.parent {
+    margin: 24px;
+    width: 600px;
+}
+
+.everything {
+    margin-left: auto;
+    margin-right: auto;
+}
