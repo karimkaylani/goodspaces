@@ -79,7 +79,7 @@ h2 {
     position: absolute;
     width: 207px;
     height: 22px;
-    left: 596px;
+    left: 650px;
     top: 796px;
 
     font-family: Inter;
@@ -88,7 +88,7 @@ h2 {
     font-size: 18px;
     line-height: 22px;
     text-decoration: underline;
-
+    text-align: center;
     text-transform: lowercase;
 
     color: #091FE8;
@@ -110,7 +110,7 @@ h3 {
     color: #091FE8;
 }
 
-ul {
+.list {
     list-style-type: none;
     text-decoration: none;
 
@@ -161,4 +161,128 @@ li a {
 .everything {
     margin-left: auto;
     margin-right: auto;
+}
+
+.upload {
+    background: #F9F9F9;
+    box-shadow: 4px 4px 8px #E2E2E2;
+    border-radius: 11px;
+    padding: 16px 24px;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.uploadlist {
+    margin: 24px;
+    width: 600px;
+
+    position: absolute;
+    height: 88px;
+    left: 470px;
+    top: 320px;
+    list-style-type: none;
+}
+
+.uploads {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li.items {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 5px;
+    font-style: bold;
+}
+
+img.instock {
+    width: 12px;
+    height: 12px;
+    padding-top: 5px;
+
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: 33px;
+}
+
+img.lowstock {
+    width: 12px;
+    height: 12px;
+    padding-top: 5px;
+
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: 65px;
+}
+
+img.outofstock {
+    width: 12px;
+    height: 12px;
+    padding-top: 5px;
+
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: 97px;
+}
+
+.backarrow {
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    left: 500px;
+    top: 220px;
+
+}
+
+.key {
+    position: absolute;
+    width: 600px;
+    height: 74px;
+    left: 480px;
+    top: 540px;
+}
+
+.time {
+    position: absolute;
+    width: 92px;
+    height: 17px;
+    left: 990px;
+    top: 437px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #091FE8;
+
+}
+
+.welcome {
+    position: absolute;
+    left: 50px;
+}
+
+.submit {
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 420px;
+    top: 511px;
+    
+    background: #F5F5F5;
+    border-radius: 11px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #656565;
+    box-sizing: border-box;
+    border: none;
 }

@@ -10,7 +10,7 @@
 {% block body %}
 <div class=everything>
 <h3>{{ city }}, {{ state }} {{ zipcode }}</h3>
-<ul>
+<ul class=list>
 {% for place in results.places %}
     {{ place.get_details() or "" }}
     <div class=parent>

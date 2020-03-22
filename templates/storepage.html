@@ -2,9 +2,23 @@
 
 {% block head %}
 
-<h3>{{ place.name }}</h3>
-<h3>Rating: {{ place.rating }}</h3>
+<h3>{{ place.name }} | {{place.formatted_address }}</h3>
 
+<a href = {{ request.referrer }}><img class=backarrow src="{{ url_for('static', filename='backarrow.png') }}"></a>
+
+<div class="uploadlist">
+
+<div class="upload">
+    <ul class=uploads>
+        <li class="items"><img class=instock src="{{ url_for('static', filename='instock.png') }}">Milk, Paper Towels, Water Bottles</li>
+        <li class="items"><img class=lowstock src="{{ url_for('static', filename='lowstock.png') }}">Eggs, Apples</li>
+        <li class="items"><img class=outofstock src="{{ url_for('static', filename='outofstock.png') }}">Toilet Paper, Disinfectant Wipes</li>
+    </ul>
+</div>
+
+</div>
+
+<h4 class=time>as of 3:03 pm</h4>
 
 {% endblock %}
 
@@ -12,5 +26,9 @@
 
 {% block body %}
 
+<img class=key src="{{ url_for('static', filename='key.png') }}">
+
+
+<h2>update this store</h2>
 
 {% endblock %}
